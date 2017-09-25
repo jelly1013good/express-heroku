@@ -6,6 +6,12 @@ app.get('/', function (req, res) {
   res.send('Hello World!')
 })
 
+app.get('/homework', function (req, res) {
+  test= {"name": "胡俐婕","email": "joy1013good@gmail.com"
+}
+  res.send('test')
+})
+
 app.listen(port, function () {
   console.log(`Example app listening on port ${port}!`)
 })
