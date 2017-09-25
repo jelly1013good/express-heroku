@@ -9,7 +9,7 @@ app.get('/', function (req, res) {
 app.get('/homework', function (req, res) {
   test= {"name": "胡俐婕","email": "joy1013good@gmail.com"
 }
-  res.send('test')
+  res.send(test)
 })
 
 app.listen(port, function () {
